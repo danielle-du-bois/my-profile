@@ -1,0 +1,114 @@
+/* Fonts and colors */
+body {
+	background: #FEFBF3;
+	color: #506D84;
+	font-family: Lora, serif;
+	font-size:  17px;
+	line-height: 1;
+	font-weight: lighter;
+}
+
+h1, h2, h3{
+	font-family: Roboto, sans-serif;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+h1 {
+	color: #152D35;
+	font-size: 35px;
+	font-weight: 900;
+}
+
+h2{
+	color: #D4B499;
+	font-size: 26px;
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+	color: #345B63;
+	font-family: Roboto,sans-serif;
+	font-weight: 400;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: #112031;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-green {
+	background-color: #506D84;
+	color: #FEFBF3;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-green:hover {
+	background-color: #D4B499;
+	color: #345B63;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #506D84;
+}
+
+.list-inline i:hover {
+	color: rgb(230,230,230);
+}
+
+/* design adjustment with id */
+
+#introduction p {
+	margin-bottom: 40px;
+}
